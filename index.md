@@ -152,6 +152,16 @@ This block displays the date and links to Google Calendar.
 </p>
 {% endif %}
 
+
+
+<p id="sign-up">
+  <strong>Sign up:</strong>
+    Use the <a href="https://forms.gle/3SdYAztotNgJ2cF49">following link</a> to sign up for this workshop.
+  
+</p>
+
+
+
 {% comment %}
 SPECIAL REQUIREMENTS
 
