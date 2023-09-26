@@ -160,7 +160,7 @@ Modify the block below if there are any special requirements.
 <p id="requirements">
   <strong>Requirements:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. 
+    <strong>Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. </strong>
   {% else %}
     Participants must have access to a computer with a
     Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
@@ -305,7 +305,7 @@ change the value of `carpentry` to `incubator`.
 
 <h2 id="setup">Setup</h2>
 <p>
-If you'd like to try and get set up before the workshop, you can try and <a href="https://git-scm.com/downloads">install git</a> to your machine and sign up for a free <a href="https://github.com/">GitHub account</a>.
+<strong>Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. </strong> If you'd like to try and get set up before the workshop, you can try and <a href="https://git-scm.com/downloads">install git</a> to your machine and <a href="https://github.com/">sign up for a free GitHub account</a>.
 </p>
 <hr/>
 
