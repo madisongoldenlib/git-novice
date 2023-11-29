@@ -293,7 +293,16 @@ change the value of `carpentry` to `incubator`.
 
 <h2 id="setup">Setup</h2>
 <p>
-<strong>Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. </strong> If you'd like to try and get set up before the workshop, you can try and <a href="https://git-scm.com/downloads">install git</a> to your machine and <a href="https://github.com/">sign up for a free GitHub account</a>.
+<strong>Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. </strong> We recommend that you try to get set up before the workshop by
+<ul>
+  <li>Downloading and installing git
+    <ul>
+      <li><strong>Mac:</strong> Install git from the <a href="https://git-scm.com/downloads">git website</a></li>
+      <li><strong>Mac:</strong> Install <a href="https://gitforwindows.org/">git for windows</a>, which will also install a "git bash" application that we will use as a "terminal"</li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/">Creating a free GitHub account</a></li>
+</ul>
 </p>
 <hr/>
 
