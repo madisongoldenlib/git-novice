@@ -5,7 +5,7 @@
 
 ## Website location
 
-The website for this workshop has been rendered here: [https://madisongoldenlib.github.io/git-novice/]((https://madisongoldenlib.github.io/git-novice/))
+The website for this workshop has been rendered here: [https://madisongoldenlib.github.io/git-novice/](https://madisongoldenlib.github.io/git-novice/).
 
 ## Modifying the lessons
 
