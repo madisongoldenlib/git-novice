@@ -5,7 +5,7 @@
 
 ## Website location
 
-The website for this workshop has been rendered here: [https://uofudelphi.github.io/2023-11-30-git/](https://uofudelphi.github.io/2023-11-30-git/)
+The website for this workshop has been rendered here: [https://madisongoldenlib.github.io/git-novice/]((https://madisongoldenlib.github.io/git-novice/))
 
 ## Modifying the lessons
 
