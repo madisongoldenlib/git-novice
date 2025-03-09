@@ -105,9 +105,9 @@ Code of Conduct: Everyone who participates in Carpentries activities is required
 [Report a Code of Conduct Incident](https://goo.gl/forms/KoUfO53Za3apOuOK2)
 
 Setup: Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by downloading and installing git.
-Mac: Install git from the git website
-Windows: Install git for windows, which will also install a "git bash" application that we will use as a "terminal
-[Creating a free GitHub account](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+Mac: Install git from the git website.
+Windows: Install git for windows, which will also install a "git bash" application that we will use as a terminal.
+[Create a free GitHub account.](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
 {% comment %} SCHEDULE
 
