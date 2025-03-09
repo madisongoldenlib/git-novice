@@ -15,7 +15,7 @@ startdate: 2025-04-09      # machine-readable start date for the workshop in YYY
 enddate: 2025-04-09       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Madison Golden"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Kaylee Alexander"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["madison.golden@utah.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["madison.golden@utah.edu", "andrew.george@hsc.utah.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: TBD # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -30,7 +30,7 @@ Edit the values in the block above to be appropriate for your workshop. If the v
 
 {% comment %} 8< ============================= until here ================== {% endcomment %}
 
-Registration: Use the following link to sign up for this workshop: [https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq]
+Registration: Use [THIS LINK](https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq) to sign up for this workshop 
 
 General Information
 {% comment %} INTRODUCTION
@@ -102,32 +102,15 @@ Who can attend?: This workshop is open to ....
 
 Code of Conduct: Everyone who participates in Carpentries activities is required to conform to the Code of Conduct. This document also outlines how to report an incident if needed.
 
-Report a Code of Conduct Incident
+[Report a Code of Conduct Incident](https://goo.gl/forms/KoUfO53Za3apOuOK2)
 
-{% comment %} SURVEYS - DO NOT EDIT SURVEY LINKS {% endcomment %}
-
-Surveys
-Please be sure to complete these surveys before and after the workshop.
-
-{% if site.carpentry == "incubator" %}
-Pre-workshop Survey
-
-Post-workshop Survey
-
-{% elsif site.incubator_pre_survey or site.incubator_post_survey %}
-WARNING: you have defined custom pre- and/or post-survey links for a workshop not configured for The Carpentries Incubator (the value of `curriculum` is not set to `incubator` in `_config.yml`). Please comment out the `incubator_pre_survey` and `incubator_post_survey` fields in `_config.yml` or, if this workshop is teaching a lesson in the Incubator, change the value of `carpentry` to `incubator`.
-{% else %}
-Pre-workshop Survey
-
-Post-workshop Survey
-
-{% endif %}
 Setup: Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by
 
 Downloading and installing git
 Mac: Install git from the git website
 Windows: Install git for windows, which will also install a "git bash" application that we will use as a "terminal"
 Creating a free GitHub account
+
 {% comment %} SCHEDULE
 
 Show the workshop's schedule.
