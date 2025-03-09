@@ -47,7 +47,7 @@ Explain who your audience is. (In particular, tell readers if the workshop is on
 
 This block displays the address and links to maps showing directions if the latitude and longitude of the workshop have been set. You can use https://www.latlong.net/ to find the lat/long of an address. {% endcomment %} {% assign begin_address = page.address | slice: 0, 4 | downcase %} {% if page.address == "online" %} {% assign online = "true_private" %} {% elsif begin_address contains "http" %} {% assign online = "true_public" %} {% else %} {% assign online = "false" %} {% endif %} {% if page.latitude and page.longitude and online == "false" %}
 
-Where: {{page.address}}.
+<strong>Where:</strong> {{page.address}}.
 
 {% elsif online == "true_public" %}
 Where: online at {{page.address}}. If you need a password or other information to access the training, the instructor will pass it on to you before the workshop.
