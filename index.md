@@ -104,9 +104,7 @@ Code of Conduct: Everyone who participates in Carpentries activities is required
 
 [Report a Code of Conduct Incident](https://goo.gl/forms/KoUfO53Za3apOuOK2)
 
-Setup: Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by
-
-Downloading and installing git
+Setup: Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by downloading and installing git.
 Mac: Install git from the git website
 Windows: Install git for windows, which will also install a "git bash" application that we will use as a "terminal"
 Creating a free GitHub account
@@ -119,7 +117,6 @@ Small changes to the schedule can be made by modifying the schedule.html found i
 
 For larger changes, a blank template for a 4-day workshop (useful for online teaching for instance) can be found in _includes/custom-schedule.html. Add the times, and what you will be teaching to this file. You may also want to add rows to the table if you wish to break down the schedule further. To use this custom schedule here, replace the block of code below the Schedule <h2> header below with {% include custom-schedule.html %}. {% endcomment %}
 
-Schedule
 {% if site.carpentry == "swc" %} {% include swc/schedule.html %} {% elsif site.carpentry == "dc" %} {% include dc/schedule.html %} {% elsif site.carpentry == "lc" %} {% include lc/schedule.html %} {% elsif site.carpentry == "incubator" %} This workshop is teaching a lesson in The Carpentries Incubator. Please check [the lesson homepage]({{ site.incubator_lesson_site }}) for a list of lesson sections and estimated timings. {% endif %}
 
 {% comment %} Edit/replace the text above if you want to include a schedule table. See the contents of the _includes/custom-schedule.html file for an example of how one of these schedule tables is constructed. {% endcomment %}
