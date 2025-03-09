@@ -30,7 +30,7 @@ Edit the values in the block above to be appropriate for your workshop. If the v
 
 {% comment %} 8< ============================= until here ================== {% endcomment %}
 
-Registration: Use the following link to sign up for this workshop: [https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq] (https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq)
+Registration: Use the following link to sign up for this workshop: [https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq]
 
 General Information
 {% comment %} INTRODUCTION
@@ -47,7 +47,7 @@ Explain who your audience is. (In particular, tell readers if the workshop is on
 
 This block displays the address and links to maps showing directions if the latitude and longitude of the workshop have been set. You can use https://www.latlong.net/ to find the lat/long of an address. {% endcomment %} {% assign begin_address = page.address | slice: 0, 4 | downcase %} {% if page.address == "online" %} {% assign online = "true_private" %} {% elsif begin_address contains "http" %} {% assign online = "true_public" %} {% else %} {% assign online = "false" %} {% endif %} {% if page.latitude and page.longitude and online == "false" %}
 
-Where: {{page.address}}. Get directions with OpenStreetMap or Google Maps.
+Where: {{page.address}}.
 
 {% elsif online == "true_public" %}
 Where: online at {{page.address}}. If you need a password or other information to access the training, the instructor will pass it on to you before the workshop.
@@ -73,13 +73,8 @@ Requirements: {% if online == "false" %} Participants must bring a laptop on whi
 
 Modify the block below if there are any barriers to accessibility or special instructions. {% endcomment %}
 
-Accessibility: {% if online == "false" %}
+Accessibility: We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
 
-We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
-
-{% else %} We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
-
-{% endif %}
 
 {% comment %} CONTACT EMAIL ADDRESS
 
@@ -105,25 +100,10 @@ Who can attend?: This workshop is open to ....
 {% endcomment %}
 {% comment%} CODE OF CONDUCT {% endcomment %}
 
-Code of Conduct
-Everyone who participates in Carpentries activities is required to conform to the Code of Conduct. This document also outlines how to report an incident if needed.
+Code of Conduct: Everyone who participates in Carpentries activities is required to conform to the Code of Conduct. This document also outlines how to report an incident if needed.
 
 Report a Code of Conduct Incident
 
-{% comment %} Collaborative Notes
-
-If you want to use an Etherpad, go to
-
-https://pad.carpentries.org/YYYY-MM-DD-site
-
-where 'YYYY-MM-DD-site' is the identifier for your workshop, e.g., '2015-06-10-esu'.
-
-Note we also have a CodiMD (the open-source version of HackMD) available at https://codimd.carpentries.org {% endcomment %} {% if page.collaborative_notes %}
-
-Collaborative Notes
-We will use this collaborative document for chatting, taking notes, and sharing URLs and bits of code.
-
-{% endif %}
 {% comment %} SURVEYS - DO NOT EDIT SURVEY LINKS {% endcomment %}
 
 Surveys
@@ -142,8 +122,7 @@ Pre-workshop Survey
 Post-workshop Survey
 
 {% endif %}
-Setup
-Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by
+Setup: Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by
 
 Downloading and installing git
 Mac: Install git from the git website
