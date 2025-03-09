@@ -106,8 +106,8 @@ Who can attend?: This workshop is open to ....
 
 <p><strong>Setup:</strong> Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by downloading and installing git.<br>
 Mac: Install git from the git website.<br>
-Windows: Install git for windows, which will also install a "git bash" application that we will use as a terminal.<br>
-[Create a free GitHub account.](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)</p>
+Windows: Install git for windows, which will also install a "git bash" application that we will use as a terminal.<br></p>
+[Create a free GitHub account.](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
 
 {% comment %} SCHEDULE
 
