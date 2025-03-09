@@ -30,9 +30,9 @@ Edit the values in the block above to be appropriate for your workshop. If the v
 
 {% comment %} 8< ============================= until here ================== {% endcomment %}
 
-Registration: Use [THIS LINK](https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq) to sign up for this workshop 
+<strong>Registration: Use [THIS LINK](https://t.e2ma.net/click/r535aj/r5f3k6cd/7p69gq) to sign up for this workshop</strong>
 
-General Information
+<h3>General Information</h3>
 {% comment %} INTRODUCTION
 
 Edit the general explanatory paragraph below if you want to change the pitch. {% endcomment %} {% if site.carpentry == "swc" %} {% include swc/intro.html %} {% elsif site.carpentry == "dc" %} {% include dc/intro.html %} {% elsif site.carpentry == "lc" %} {% include lc/intro.html %} {% endif %}
@@ -60,27 +60,27 @@ Where: This training will take place online. The instructors will provide you wi
 
 This block displays the date and links to Google Calendar. {% endcomment %} {% if page.humandate %}
 
-When: {{page.humandate}}. {% include workshop_calendar.html %}
+<strong>When:</strong> {{page.humandate}}. {% include workshop_calendar.html %}
 
 {% endif %}
 {% comment %} SPECIAL REQUIREMENTS
 
 Modify the block below if there are any special requirements. {% endcomment %}
 
-Requirements: {% if online == "false" %} Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. {% else %} Participants must have access to a computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. {% endif %}
+<strong>Requirements:</strong> {% if online == "false" %} Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. {% else %} Participants must have access to a computer with a Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on. {% endif %}
 
 {% comment %} ACCESSIBILITY
 
 Modify the block below if there are any barriers to accessibility or special instructions. {% endcomment %}
 
-Accessibility: We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
+<strong>Accessibility:</strong> We are dedicated to providing a positive and accessible learning environment for all. Please notify the instructors in advance of the workshop if you require any accommodations or if there is anything we can do to make this workshop more accessible to you.
 
 
 {% comment %} CONTACT EMAIL ADDRESS
 
 Display the contact email address set in the configuration file. {% endcomment %}
 
-Contact: Please email {% if page.email %} {% for email in page.email %} {% if forloop.last and page.email.size > 1 %} or {% else %} {% unless forloop.first %} , {% endunless %} {% endif %} {{email}} {% endfor %} {% else %} to-be-announced {% endif %} for more information.
+<strong>Contact:</strong> Please email {% if page.email %} {% for email in page.email %} {% if forloop.last and page.email.size > 1 %} or {% else %} {% unless forloop.first %} , {% endunless %} {% endif %} {{email}} {% endfor %} {% else %} to-be-announced {% endif %} for more information.
 
 {% comment %} WHO CAN ATTEND?
 
@@ -100,14 +100,14 @@ Who can attend?: This workshop is open to ....
 {% endcomment %}
 {% comment%} CODE OF CONDUCT {% endcomment %}
 
-Code of Conduct: Everyone who participates in Carpentries activities is required to conform to the Code of Conduct. This document also outlines how to report an incident if needed.
+<strong>Code of Conduct:</strong> Everyone who participates in Carpentries activities is required to conform to the Code of Conduct. This document also outlines how to report an incident if needed.
 
 [Report a Code of Conduct Incident](https://goo.gl/forms/KoUfO53Za3apOuOK2)
 
-Setup: Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by downloading and installing git.
-Mac: Install git from the git website.
-Windows: Install git for windows, which will also install a "git bash" application that we will use as a terminal.
-[Create a free GitHub account.](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)
+<p><strong>Setup:</strong> Participants must bring a laptop on which you have admin privileges since you will need to be able to install git on your laptop to participate in the workshop. We recommend that you try to get set up before the workshop by downloading and installing git.<br>
+Mac: Install git from the git website.<br>
+Windows: Install git for windows, which will also install a "git bash" application that we will use as a terminal.<br>
+[Create a free GitHub account.](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github)</p>
 
 {% comment %} SCHEDULE
 
